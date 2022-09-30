@@ -4,6 +4,7 @@ import Navbar from "../components/navbar";
 import SkillTitle from "../components/skillsTitle";
 import Skills from "../components/skills";
 import skillsInfo from "../components/skillsInfo";
+import Message from "../components/message";
 
 function Home() {
     return(
@@ -15,6 +16,7 @@ function Home() {
                 {skillsInfo.map(Skills)}
             </div>
             <Footer/>
+            <Message/>
         </div>
     )
 }
